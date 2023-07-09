@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const HOST = import.meta.env.VITE_HOST || "http://45.148.134.152:8000/"
+const HOST = import.meta.env.VITE_HOST || "https://api.xn--5gq551h.co/"
 
 const service = axios.create({
     baseURL: HOST,
